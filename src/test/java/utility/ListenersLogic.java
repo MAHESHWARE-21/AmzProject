@@ -19,7 +19,7 @@ public class ListenersLogic implements ITestListener
 	{
 		  TakesScreenshot ts=        (TakesScreenshot) driver;        
           File source=ts.getScreenshotAs(OutputType.FILE);
-          File destination=new File("C:\\Users\\MKT\\eclipse-workspace\\Ab72Project\\test-output\\Screenshot\\"+status+"\\"+result.getName()+".png");        
+          File destination=new File("C:\\Users\\mahes\\grotechminds72\\SeleniumMavenproject2\\test-output\\Screenshot\\"+status+"\\"+result.getName()+".png");        
           try {
 			FileHandler.copy(source, destination);
 		} catch (IOException e) {
