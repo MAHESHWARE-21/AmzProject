@@ -29,13 +29,13 @@ public class BaseTest  extends ListenersLogic
 		 Thread.sleep(3000);
 
 		}
-		if(nameOfBrowser.equals("firefox"))
+	/*	if(nameOfBrowser.equals("firefox"))
 		{
 		 driver=new FirefoxDriver();
 		// driver.manage().window().maximize();
 		 driver.get("https://www.amazon.in");
 
-		}
+		}*/
 		}
 
 	
