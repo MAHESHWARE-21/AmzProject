@@ -9,7 +9,9 @@ import org.testng.annotations.Parameters;
 
 
 public class BaseTest  extends ListenersLogic
+	
 {
+	public static WebDriver driver;
 	@Parameters("browser")
 	@BeforeMethod
 	public void laucnhBrowser(String nameOfBrowser) throws InterruptedException//local variable
