@@ -17,7 +17,7 @@ public class ListenersLogic implements ITestListener
 	
 	public void captureScreenshot(ITestResult result, String status)
 	{
-		  TakesScreenshot ts=        (TakesScreenshot) driver;        
+		  TakesScreenshot ts=        (TakesScreenshot) BaseTest.driver;        
           File source=ts.getScreenshotAs(OutputType.FILE);
           File destination=new File("C:\\Users\\mahes\\grotechminds72\\SeleniumMavenproject2\\test-output\\Screenshot\\"+status+"\\"+result.getName()+".png");        
           try {
