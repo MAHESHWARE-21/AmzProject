@@ -46,8 +46,11 @@ public class BaseTest  extends ListenersLogic
 	@AfterMethod
 	public void quitBrowser() throws InterruptedException
 	{
+		if(driver !=null){
+		
 		Thread.sleep(3000);
 		driver.quit();
 		}
+}
 
 }
